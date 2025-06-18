@@ -24,6 +24,50 @@ Topics covered:
 
 ---
 
+## 📅 Day 3: Control Flow
+Focuses on:
+- Nested if-else and switch-case
+- Logical operators and conditions
+- Control flow applications:
+  - Checking Spring Season
+  - Rocket Launch Countdown
+  - Sum of Natural Numbers (loop vs formula)
+  - Breaking loop on negative input
+
+---
+
+## 📅 Day 4: Arrays
+Covers:
+- Declaring and initializing arrays
+- Storing multiple inputs using loops
+- Finding sum and average of array elements
+- Handling dynamic input sizes (up to 10 elements)
+- Identifying positive, negative, even, odd values
+- Comparing first and last array elements
+
+---
+
+## 📅 Day 5: Strings
+Key concepts:
+- Taking string input from user
+- Comparing strings using `charAt()` method
+- Using `equals()` and `equalsIgnoreCase()`
+- FizzBuzz string-based logic
+- Storing strings in arrays and printing with indexes
+
+---
+
+## 💡 Interesting Additions
+Some extra challenges beyond the basics:
+- Multiplication table using arrays
+- Factor finding with dynamic array resizing
+- Multi-dimensional (2D) array to 1D array flattening
+- Separating even and odd numbers into arrays
+- Validating input for natural numbers
+- Enhanced user feedback and formatted outputs
+
+---
+
 ## 🛠️ Requirements
 - Java JDK 8 or above
 - Any Java IDE or text editor
@@ -37,20 +81,28 @@ Topics covered:
    git clone https://github.com/yourusername/java-practice.git
    cd java-practice
 
+
 BridgeLab_SIPP_Training/
 ├── PraticeProblem/
 │   ├── HelloWorld.java
 │   └── ... other simple problems
 ├── javaFundamentals/
 │   ├── JavaFundamentals.java
-│   └── ... other fundamentals code
+│   └── ... fundamental codes
+├── controlFlow/
+│   └── SpringSeason.java, Countdown.java, SumNatural.java ...
+├── arrays/
+│   └── SumArray.java, OddEvenArray.java ...
+├── strings/
+│   └── CompareStrings.java, FizzBuzz.java ...
 └── README.md
 
 
 
-
-
 ## Badges
+  
+
+
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
