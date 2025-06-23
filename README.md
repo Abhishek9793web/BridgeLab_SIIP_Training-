@@ -82,20 +82,20 @@ Some extra challenges beyond the basics:
    cd java-practice
 
 
-BridgeLab_SIPP_Training/
-├── PraticeProblem/
-│   ├── HelloWorld.java
-│   └── ... other simple problems
-├── javaFundamentals/
-│   ├── JavaFundamentals.java
-│   └── ... fundamental codes
-├── controlFlow/
-│   └── SpringSeason.java, Countdown.java, SumNatural.java ...
-├── arrays/
-│   └── SumArray.java, OddEvenArray.java ...
-├── strings/
-│   └── CompareStrings.java, FizzBuzz.java ...
-└── README.md
+- BridgeLab_SIPP_Training/
+- ├── PraticeProblem/
+- │   ├── HelloWorld.java
+- │   └── ... other simple problems
+- ├── javaFundamentals/
+- │   ├── JavaFundamentals.java
+- │   └── ... fundamental codes
+- ├── controlFlow/
+- │   └── SpringSeason.java, Countdown.java, SumNatural.java ...
+- ├── arrays/
+- │   └── SumArray.java, OddEvenArray.java ...
+- ├── strings/
+- │   └── CompareStrings.java, FizzBuzz.java ...
+- └── README.md
 
 
 
