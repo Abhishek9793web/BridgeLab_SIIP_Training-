@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class AbstractImp extends Abstract {
 
-public class AbstractImp {
+    @Override
+    public void m2(){
+        System.out.println("abstract method");
+    }
 }
+
+
