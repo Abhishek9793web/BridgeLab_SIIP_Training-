@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="182ecf50-83fe-4eff-94f7-43437627ba98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7e4943bb-a074-4a9a-8a0b-3995c3ebe725" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Generics/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Generics/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,31 +24,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="30DTCDYPawyin5utUa6S1GjgG2c" />
+  <component name="ProjectId" id="2zwSVKZnMKU2PSdgCAtBrKWDySp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Cain.executor": "Run",
+    "Application.Expression_Evaluation_Engine.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.ain.executor": "Run",
+    "Application.Nain.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Generics",
-    "last_opened_file_path": "C:/Users/abhis/OneDrive/Desktop/BridgeLab/Generics"
+    "onboarding.tips.debug.path": "C:/Users/abhis/OneDrive/Desktop/BridgeLab/Workshop/Workshop/src/Main.java"
   }
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="182ecf50-83fe-4eff-94f7-43437627ba98" name="Changes" comment="" />
-      <created>1753161013172</created>
+      <changelist id="7e4943bb-a074-4a9a-8a0b-3995c3ebe725" name="Changes" comment="" />
+      <created>1752640665742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753161013172</updated>
+      <updated>1752640665742</updated>
     </task>
     <servers />
   </component>
