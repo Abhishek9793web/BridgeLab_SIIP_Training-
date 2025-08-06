@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ClassAndObject/ClassAndObject.iml" filepath="$PROJECT_DIR$/ClassAndObject/ClassAndObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Controlflows/Controlflows.iml" filepath="$PROJECT_DIR$/Controlflows/Controlflows.iml" />
       <module fileurl="file://$PROJECT_DIR$/Encapsulation_Polymorphism_Interface/Encapsulation_Polymorphism_Interface.iml" filepath="$PROJECT_DIR$/Encapsulation_Polymorphism_Interface/Encapsulation_Polymorphism_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hash_Maps&amp;Hash/Hash_Maps&amp;Hash.iml" filepath="$PROJECT_DIR$/Hash_Maps&amp;Hash/Hash_Maps&amp;Hash.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashmap/Hashmap.iml" filepath="$PROJECT_DIR$/Hashmap/Hashmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Method/Method.iml" filepath="$PROJECT_DIR$/Method/Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object_Oriented_Design_Principles/Object_Oriented_Design_Principles.iml" filepath="$PROJECT_DIR$/Object_Oriented_Design_Principles/Object_Oriented_Design_Principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/Practice.iml" filepath="$PROJECT_DIR$/practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Single_Inheritance/Single_Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Single_Inheritance/Single_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
