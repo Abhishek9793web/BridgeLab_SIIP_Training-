@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BridgeLab.iml" filepath="$PROJECT_DIR$/BridgeLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Runtime_Analysis_BigO_Notation/Runtime_Analysis_BigO_Notation.iml" filepath="$PROJECT_DIR$/Runtime_Analysis_BigO_Notation/Runtime_Analysis_BigO_Notation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
