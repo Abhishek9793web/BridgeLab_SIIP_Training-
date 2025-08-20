@@ -1,0 +1,31 @@
+
+Java OOPs
+1.Traffic Signal Simulation
+
+
+ENUM TrafficLight
+    RED, GREEN, YELLOW
+
+CLASS TrafficSignal
+    ATTRIBUTE: currentLight (TrafficLight)
+
+    METHOD constructor()
+        SET currentLight = RED   // initial state
+
+    METHOD changeLight()
+        IF currentLight == RED
+            currentLight = GREEN
+        ELSE IF currentLight == GREEN
+            currentLight = YELLOW
+        ELSE IF currentLight == YELLOW
+            currentLight = RED
+
+    METHOD showLight()
+        DISPLAY "Current Signal: " + currentLight
+
+MAIN METHOD
+    CREATE TrafficSignal object
+    LOOP for some time
+        CALL showLight()
+        WAIT for few seconds (simulate interval)
+        CALL changeLight()

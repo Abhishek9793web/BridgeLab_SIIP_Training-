@@ -1,0 +1,64 @@
+Java OOPs
+1. Pet Adoption App
+
+START
+
+CLASS Pet
+     Attribute Name
+      "        age
+      "        adopted
+
+   Constructor Pet
+       call name,age
+
+   Method Adopt
+      call adopted
+
+
+ Display method
+   print name
+     "   age
+   
+       
+
+
+CLASS Dog Extends Pet
+      Attributes istrained
+
+     method Constructor
+        super call name,age
+        call istrained
+
+display method
+  call super.display
+  print istrained
+
+
+CLASS Cat Extends pet
+     Attributes isIndoor
+
+   method Constructor
+      super call name,age
+      call isIndoor
+
+display method
+  call super.display
+  print isIndoor
+
+ 
+
+Class Bird EXtends pet
+
+     Attributes canfly
+
+method Constructor
+      super call name,age
+      call canfly
+
+display method
+  call super.display
+  print canfly
+
+  
+
+END
