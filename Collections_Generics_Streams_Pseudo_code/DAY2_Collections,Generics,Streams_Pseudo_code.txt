@@ -1,0 +1,34 @@
+Collections, Generics, Streams
+1.Online Store Cart System
+START
+CLASS Item
+    ATTRIBUTES: id, name, price, quantity
+    METHOD getTotalPrice()
+        RETURN price * quantity
+
+CLASS ShoppingCart
+    ATTRIBUTE: List<Item> cartItems
+
+    METHOD addItem(Item item)
+        cartItems.add(item)
+
+    METHOD removeItem(Item item)
+        cartItems.remove(item)
+
+    GENERIC METHOD calculateTotal(List<? extends Item> items)
+        total = 0
+        FOR each item in items
+            total += item.getTotalPrice()
+        RETURN total
+
+    METHOD displayCart()
+        FOR each item in cartItems
+            DISPLAY item.name + " x " + item.quantity
+        DISPLAY "Total = " + calculateTotal(cartItems)
+
+MAIN METHOD
+    CREATE ShoppingCart object
+    CREATE Item objects (i1, i2, i3)
+    ADD them to cart
+    CALL displayCart()
+END
