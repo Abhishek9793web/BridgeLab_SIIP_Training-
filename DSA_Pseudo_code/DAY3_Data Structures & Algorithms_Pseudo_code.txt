@@ -1,0 +1,93 @@
+Data Structures & Algorithms
+1. Patient Record Hashing
+START
+
+CLASS Patient
+    ATTRIBUTES: patientId, name, age, disease
+    METHOD displayDetails()
+
+CLASS PatientRecordManager
+    ATTRIBUTE: HashMap<patientId, Patient> records
+
+    METHOD addPatient(Patient p)
+        records.put(p.patientId, p)
+
+    METHOD getPatient(patientId)
+        RETURN records.get(patientId)
+
+    METHOD updatePatient(patientId, newPatient)
+        IF records.containsKey(patientId)
+            records.put(patientId, newPatient)
+        ELSE
+            DISPLAY "Patient not found"
+
+    METHOD deletePatient(patientId)
+        records.remove(patientId)
+
+    METHOD displayAllPatients()
+        FOR each patient in records
+            CALL displayDetails()
+
+MAIN METHOD
+    CREATE PatientRecordManager object
+    CREATE Patient objects (p1, p2, p3)
+    CALL addPatient(p1), addPatient(p2), addPatient(p3)
+    
+    CALL getPatient(p1.patientId)
+    CALL updatePatient(p2.patientId, updatedPatient)
+    CALL deletePatient(p3.patientId)
+    CALL displayAllPatients()
+END
+
+
+
+
+
+2.Maze Solver Bot
+START
+
+
+CLASS MazeSolver
+    ATTRIBUTES: maze[ROWS][COLS], solution[ROWS][COLS]
+
+    METHOD solveMaze(startX, startY)
+        IF solve(startX, startY) == true
+            DISPLAY solution path
+        ELSE
+            DISPLAY "No path found"
+
+    METHOD solve(x, y)   // Recursive Backtracking
+        IF (x, y) is destination
+            solution[x][y] = 1
+            RETURN true
+
+        IF (x, y) is safe cell (inside maze, not wall, not visited)
+            solution[x][y] = 1
+
+            // Move Down
+            IF solve(x+1, y) == true
+                RETURN true
+
+            // Move Right
+            IF solve(x, y+1) == true
+                RETURN true
+
+            // Move Up
+            IF solve(x-1, y) == true
+                RETURN true
+
+            // Move Left
+            IF solve(x, y-1) == true
+                RETURN true
+
+            // Backtrack
+            solution[x][y] = 0
+            RETURN false
+
+        RETURN false
+
+MAIN METHOD
+    DEFINE maze as 2D grid (0 = free cell, 1 = wall)
+    CREATE MazeSolver object
+    CALL solveMaze(0, 0)
+END

@@ -1,0 +1,35 @@
+Data Structures & Algorithms
+Undo Feature in Text Editor
+
+CLASS TextEditor
+    ATTRIBUTE: text (String)
+    ATTRIBUTE: undoStack (Stack<String>)
+
+    METHOD constructor()
+        text = ""
+        undoStack = empty stack
+
+    METHOD write(newText)
+        PUSH current text into undoStack
+        text = text + newText
+
+    METHOD undo()
+        IF undoStack is not empty
+            text = POP from undoStack
+        ELSE
+            DISPLAY "Nothing to undo"
+
+    METHOD showText()
+        DISPLAY text
+
+MAIN METHOD
+    CREATE TextEditor editor
+    CALL write("Hello ")
+    CALL write("World")
+    CALL showText()          // Output: "Hello World"
+
+    CALL undo()
+    CALL showText()          // Output: "Hello "
+
+    CALL undo()
+    CALL showText()          // Output: ""
