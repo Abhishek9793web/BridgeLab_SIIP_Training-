@@ -1,0 +1,91 @@
+ Java OOPs
+    1. Food Delivery System
+
+CLASS Customer
+    ATTRIBUTES: name, address, phone
+    METHOD displayCustomerDetails()
+
+CLASS Restaurant
+    ATTRIBUTES: name, location, menu
+    METHOD displayRestaurantDetails()
+
+CLASS DeliveryBoy
+    ATTRIBUTES: name, employeeId, phone
+    METHOD displayDeliveryBoyDetails()
+
+CLASS Order   
+    ATTRIBUTES: orderId, foodItems, totalAmount
+                customer (Customer object)
+                restaurant (Restaurant object)
+                deliveryBoy (DeliveryBoy object)
+    METHOD placeOrder()
+    METHOD showOrderDetails()
+
+MAIN METHOD
+    CREATE Customer object
+    CREATE Restaurant object
+    CREATE DeliveryBoy object
+    CREATE Order object (passing above objects)
+    CALL placeOrder()
+    CALL showOrderDetails()
+
+  2. Medical Record Manager
+START
+
+INTERFACE Searchable
+    METHOD search(keyword)
+
+INTERFACE Printable
+    METHOD print()
+
+CLASS PatientRecord IMPLEMENTS Searchable, Printable
+    ATTRIBUTES: patientId, name, age, disease
+    METHOD search(keyword)
+        IF keyword matches name OR disease
+            RETURN record found
+        ELSE
+            RETURN not found
+    METHOD print()
+        DISPLAY patient record details
+
+CLASS LabReport IMPLEMENTS Printable
+    ATTRIBUTES: reportId, patientName, testName, result
+    METHOD print()
+        DISPLAY formatted lab report
+
+
+CLASS MedicalRecordManager
+    ATTRIBUTES: listOfRecords
+    METHOD addRecord(record)
+    METHOD searchRecords(keyword)   
+    METHOD printAllReports()        
+MAIN METHOD
+    CREATE PatientRecord object
+    CREATE LabReport object
+  
+    ADD them to MedicalRecordManager
+    CALL searchRecords("fever")
+    CALL printAllReports()
+
+
+END 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

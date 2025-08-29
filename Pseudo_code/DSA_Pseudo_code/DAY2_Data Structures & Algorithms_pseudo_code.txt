@@ -1,0 +1,39 @@
+Data Structures & Algorithms
+1.Online Quiz Timer
+START
+CLASS QuizTimer
+    ATTRIBUTES:
+        times[]   // circular array of time slots for each question
+        size      // number of questions
+        front     // pointer to current question
+        rear      // pointer to last question
+
+    METHOD constructor(n)
+        size = n
+        times = new array of size n
+        front = 0
+        rear = -1
+
+    METHOD addTimeSlot(time)
+        rear = (rear + 1) % size
+        times[rear] = time
+
+    METHOD startQuiz()
+        index = front
+        LOOP through all questions
+            timeLeft = times[index]
+
+            WHILE timeLeft > 0
+                DISPLAY "Question " + (index+1) + " Time left: " + timeLeft
+                IF timeLeft <= 5
+                    DISPLAY "⚠ Warning: Hurry up!"
+                WAIT 1 second
+                timeLeft--
+
+            index = (index + 1) % size   // move circularly
+
+MAIN METHOD
+    CREATE QuizTimer object with n = 5
+    ADD time slots (e.g., 30, 20, 25, 15, 10 seconds)
+    CALL startQuiz()
+END

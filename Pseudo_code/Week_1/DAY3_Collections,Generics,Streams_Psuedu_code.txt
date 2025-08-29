@@ -1,0 +1,26 @@
+Collections, Generics, Streams
+
+1.Library Book Filter
+
+START
+CLASS Book
+    ATTRIBUTES: title, author, year, rating
+    METHOD displayDetails()
+
+CLASS Library
+    ATTRIBUTE: List<Book> books
+
+    METHOD filterBooks()
+        result = books.stream()
+                      .filter(book -> book.year > 2015)
+                      .filter(book -> book.rating > 4.5)
+                      .collect(toList)
+        RETURN result
+
+MAIN METHOD
+    CREATE Book objects (b1, b2, b3, b4)
+    ADD them to Library.books
+
+    CALL filterBooks()
+    DISPLAY filtered books
+END
